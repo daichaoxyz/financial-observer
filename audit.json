@@ -1,30 +1,30 @@
 {
   "reportDate": "2026-09-30",
-  "asOf": "2026-10-30T04:06:29.738650+00:00",
-  "collectedFrom": "2026-10-29T12:51:20.321345+00:00",
-  "dateCutoff": "2026-10-30",
-  "latestNoticeDate": "2026-10-30",
+  "asOf": "2026-10-30T17:34:26.117644+00:00",
+  "collectedFrom": "2026-10-30T04:05:59.173919+00:00",
+  "dateCutoff": "2026-10-31",
+  "latestNoticeDate": "2026-10-31",
   "audit": {
-    "cpdRaw": 5049,
-    "cpdA": 4931,
-    "companies": 4931,
+    "cpdRaw": 5758,
+    "cpdA": 5571,
+    "companies": 5571,
     "quotePool": 5576,
     "officialUniverseReconciled": false,
-    "industryMatched": 4930,
-    "quarterComplete": 4926,
+    "industryMatched": 5570,
+    "quarterComplete": 5566,
     "crossSourceDiscrepancies": [],
     "markets": {
-      "SZ": 2881,
-      "SH": 1709,
-      "BJ": 341
+      "SZ": 2904,
+      "SH": 2313,
+      "BJ": 354
     },
     "missingIndustry": [
       "920306"
     ],
     "nextDayNoticeReports": 0,
     "outsideQuotePool": [],
-    "industry3Matched": 4930,
-    "industry3Categories": 332,
+    "industry3Matched": 5570,
+    "industry3Categories": 336,
     "missingIndustry3": [
       "920306"
     ]
@@ -50,5 +50,16 @@
       "name": "Tushare：申万2021行业代码与名称对照",
       "url": "https://tushare.pro/document/2?doc_id=181"
     }
-  ]
+  ],
+  "refreshSummary": {
+    "previousAsOf": "2026-10-30T04:06:29.738650+00:00",
+    "asOf": "2026-10-30T17:34:26.117644+00:00",
+    "previousCount": 4931,
+    "currentCount": 5571,
+    "semiconductorCount": 187,
+    "previousSemiconductorCount": 155,
+    "addedCount": 640,
+    "removedCount": 0,
+    "financialChangedCount": 2
+  }
 }
