@@ -1,0 +1,54 @@
+{
+  "reportDate": "2026-09-30",
+  "asOf": "2026-10-30T04:06:29.738650+00:00",
+  "collectedFrom": "2026-10-29T12:51:20.321345+00:00",
+  "dateCutoff": "2026-10-30",
+  "latestNoticeDate": "2026-10-30",
+  "audit": {
+    "cpdRaw": 5049,
+    "cpdA": 4931,
+    "companies": 4931,
+    "quotePool": 5576,
+    "officialUniverseReconciled": false,
+    "industryMatched": 4930,
+    "quarterComplete": 4926,
+    "crossSourceDiscrepancies": [],
+    "markets": {
+      "SZ": 2881,
+      "SH": 1709,
+      "BJ": 341
+    },
+    "missingIndustry": [
+      "920306"
+    ],
+    "nextDayNoticeReports": 0,
+    "outsideQuotePool": [],
+    "industry3Matched": 4930,
+    "industry3Categories": 332,
+    "missingIndustry3": [
+      "920306"
+    ]
+  },
+  "sources": [
+    {
+      "name": "东方财富：业绩报表",
+      "url": "https://data.eastmoney.com/bbs/202609.html"
+    },
+    {
+      "name": "东方财富：财务指标",
+      "url": "https://datacenter-web.eastmoney.com/api/data/v1/get"
+    },
+    {
+      "name": "申万宏源：官方行业分类历史",
+      "url": "https://www.swsresearch.com/swindex/pdf/SwClass2021/StockClassifyUse_stock.xls"
+    },
+    {
+      "name": "申万宏源：一级行业",
+      "url": "https://www.swsresearch.com/institute-sw/api/index_publish/current/?page=1&page_size=100&indextype=%E4%B8%80%E7%BA%A7%E8%A1%8C%E4%B8%9A"
+    },
+    {
+      "name": "Tushare：申万2021行业代码与名称对照",
+      "url": "https://tushare.pro/document/2?doc_id=181"
+    }
+  ]
+}
